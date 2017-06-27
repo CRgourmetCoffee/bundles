@@ -22,7 +22,6 @@
     "target-dir" : "",
     "repositories" : [{
     }],"extra": {
-        "symfony-assets-install":"symlink"
     "branch-alias" : {
             "dev-master" : "some_version-dev"
         }
