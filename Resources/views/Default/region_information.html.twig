@@ -1,0 +1,108 @@
+{% extends "layout.html.twig" %}
+
+{% block title%} Region Information {% endblock %}
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('bundles/crgourmetcoffeebundlesregion/css/region_information.css') }}" />
+{% endblock %}
+
+{% block body %}
+<main>
+		<section id='regionInfoSection'>
+			<center><h2>Region Information</h2></center>
+			<div class='container-fluid'>
+				<div id='regionInfoContainer' class='row'>
+					<div id='regionInfoHeading' class='col-xs-12'>
+						<center><h3>{{ region }}</h3></center>
+					</div>
+					<div id="regionPicContainer" class='regionInfoCards col-xs-12 col-sm-4'>
+						<div class='regionInfoIcons'>
+							<img src="{{ asset('bundles/crgourmetcoffeebundlesregion/images/icon12.svg') }}">
+						</div>
+						<h4>Images</h4>
+						<div class="container col-xs-12">
+							<div class="row">
+						    	    <div class="well"> 
+						                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+							                <div class="carousel-inner">
+								                <div class="item active">
+									                <center><img class='regionPics' src="{{ asset('bundles/crgourmetcoffeebundlesregion/images/central-valley/volcano.jpg') }}"></center>
+								                	<div class="carousel-caption">
+														<h3>Image 1 Description</h3>
+													</div>
+							                	</div>
+							                	<div class="item">
+								                	<center><img class='regionPics' src="{{ asset('bundles/crgourmetcoffeebundlesregion/images/central-valley/panoramic.jpg') }}"></center>
+								                	<div class="carousel-caption">
+														<h3>Image 2 Description</h3>
+													</div>
+							                	</div>
+							                	<div class="item">
+								                	<center><img class='regionPics' src="{{ asset('bundles/crgourmetcoffeebundlesregion/images/central-valley/juansantamaria.jpg') }}"></center>
+								                	<div class="carousel-caption">
+														<h3>Image 3 Description</h3>
+													</div>
+							                	</div>
+							                </div>
+						                </div>
+						            </div>
+							</div>
+						</div>
+					</div>
+					<div class='regionInfoCards col-xs-12 col-sm-4'>
+						<div class='regionInfoIcons'>
+							<img src="{{ asset('bundles/crgourmetcoffeebundlesregion/images/icon1.svg') }}">
+						</div>
+						<h4>Description</h4>
+						<div>
+							<p class="regionText">Region description</p>
+							<p class="regionText" style="font-style: italic;">
+								<span style="font-style: bond">Source:</span> Instituto del Café de Costa Rica (ICAFE)
+							</p>
+						</div>
+						<div class='regionInfoIcons'>
+							<img src="{{ asset('bundles/crgourmetcoffeebundlesregion/images/icon5.svg') }}">
+						</div>
+						<h4>Organoleptic charactersitics</h4>
+						<div>
+							<p class="regionText">Region Characteristics</p>
+							<p class="regionText" style="font-style: italic;">
+								<span style="font-style: bond">Source:</span> Instituto del Café de Costa Rica (ICAFE)
+							</p>
+						</div>
+					</div>
+					<div id='regionInfoDetailsContainer' class='regionInfoCards col-xs-12 col-sm-4'>
+						<div class='regionInfoIcons'>
+							<img src="{{ asset('bundles/crgourmetcoffeebundlesregion/images/icon2.svg') }}">
+						</div>
+						<h4>Information</h4>
+						<div>
+							<p class="regionText">
+								Region Information
+							</p>
+							<p class="regionText" style="font-style: italic;">
+								<span style="font-style: bond">Source:</span> Instituto del Café de Costa Rica (ICAFE)
+							</p>
+						</div>
+					</div>
+					<div class='regionInfoCards col-xs-12'>
+						<div class='regionInfoIcons'>
+							<img src="{{ asset('bundles/crgourmetcoffeebundlesregion/images/icon4.svg') }}">
+						</div>
+						<h4>Location</h4>
+						<div id="region_map">Mapa</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8iOI-wKQIfkncEFwGUHS3dsce-nlwsQ0" type="text/javascript"></script>
+	<script>
+		var lat = 10.070124;
+		var lon = -84.081127;
+	</script>	
+	<script src="{{ asset('/bundles/crgourmetcoffeebundlesregion/js/region_information.js')}}"></script>
+{% endblock %}
