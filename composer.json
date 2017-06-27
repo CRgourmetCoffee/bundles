@@ -16,10 +16,10 @@
     },
     "autoload" : {
         "psr-0" : {
-            "crgourmetcoffee\\RegionBundle" : ""
+            "crgourmetcoffee\\bundles\\RegionBundle" : ""
         }
     },
-    "target-dir" : "crgourmetcoffee/RegionBundle",
+    "target-dir" : "crgourmetcoffee/bundles/RegionBundle",
     "repositories" : [{
     }],
     "extra" : {
