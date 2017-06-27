@@ -1,0 +1,30 @@
+{
+    "name" : "crgourmetcoffee/regionbundle",
+    "description" : "Region bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Carlos Herrera Villalobos",
+        "email" : "carloshv93@gmail.com"
+    }],
+    "keywords" : [
+        "region bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "crgourmetcoffee\\RegionBundle" : ""
+        }
+    },
+    "target-dir" : "crgourmetcoffee/RegionBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "some_version-dev"
+        }
+    }
+}
