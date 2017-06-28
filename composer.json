@@ -16,10 +16,10 @@
     },
     "autoload" : {
         "psr-0" : {
-            "" : ""
+            "CRgourmetcoffee\\RegionBundle" : ""
         }
     },
-    "target-dir" : "",
+    "target-dir" : "CRgourmetcoffee/RegionBundle",
     "repositories" : [{
     }],"extra": {
     "branch-alias" : {
