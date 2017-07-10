@@ -1,6 +1,6 @@
 {
     "name" : "crgourmetcoffee/regionbundle",
-    "description" : "Bundle that contains all the common file of the regions",
+    "description" : "Bundle with the common files of the regions",
     "type" : "symfony-bundle",
     "authors" : [{
         "name" : "Carlos Herrera",
@@ -19,12 +19,12 @@
             "crgourmetcoffee\\RegionBundle" : ""
         }
     },
-    "target-dir" : "",
+    "target-dir" : "RegionBundle",
     "repositories" : [{
     }],
     "extra" : {
     "branch-alias" : {
-            "dev-master" : "0.1"
+            "dev-master" : "some_version-dev"
         }
     }
 }
