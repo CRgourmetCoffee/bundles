@@ -19,12 +19,12 @@
             "crgourmetcoffee\\RegionBundle" : ""
         }
     },
-    "target-dir" : "RegionBundle",
+    "target-dir" : "/RegionBundle",
     "repositories" : [{
     }],
     "extra" : {
     "branch-alias" : {
-            "dev-master" : "some_version-dev"
+            "dev-master" : "0.x-dev"
         }
     }
 }
