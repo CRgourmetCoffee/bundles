@@ -19,7 +19,7 @@
             "crgourmetcoffee\\RegionBundle" : ""
         }
     },
-    "target-dir" : "/RegionBundle",
+    "target-dir" : "Crgourmetcoffee/RegionBundle",
     "repositories" : [{
     }],
     "extra" : {
