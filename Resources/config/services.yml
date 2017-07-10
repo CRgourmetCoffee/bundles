@@ -1,4 +1,0 @@
-services:
-#    crgourmetcoffeebundles_region.example:
-#        class: crgourmetcoffee\bundles\RegionBundle\Example
-#        arguments: ["@service_id", "plain_value", "%parameter%"]
