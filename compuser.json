@@ -1,0 +1,30 @@
+{
+    "name" : "crgourmetcoffee/regionbundle",
+    "description" : "Bundle that contains all the common file of the regions",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Carlos Herrera",
+        "email" : "carloshv93@gmail.com.com"
+    }],
+    "keywords" : [
+        "region bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "crgourmetcoffee\\RegionBundle" : ""
+        }
+    },
+    "target-dir" : "",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "0.1"
+        }
+    }
+}

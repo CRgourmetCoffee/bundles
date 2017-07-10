@@ -1,0 +1,3 @@
+crgourmetcoffee_region_homepage:
+    path:     /
+    defaults: { _controller: CrgourmetcoffeeRegionBundle:Default:index }
