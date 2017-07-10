@@ -1,25 +1,25 @@
 {
-    "name" : "crgourmetcoffee/regionbundle",
-    "description" : "Bundle with the common files of the regions",
+    "name" : "Crgourmet/Bundle/RegionBundle",
+    "description" : "Region Bundle for testing a shared bundle",
     "type" : "symfony-bundle",
     "authors" : [{
-        "name" : "Carlos Herrera",
-        "email" : "carloshv93@gmail.com.com"
+        "name" : "Carlos Herrera Villalobos",
+        "email" : "carloshv93@gmail.com"
     }],
     "keywords" : [
-        "region bundle"
+        "Region bundle"
     ],
-    "license" : [
+    "license" : [     
         "MIT"
     ],
     "require" : {
     },
     "autoload" : {
         "psr-0" : {
-            "Crgourmetcoffee\\Bundle\\RegionBundle" : ""
+            "Crgourmet\\Bundle\\RegionBundle" : ""
         }
     },
-    "target-dir" : "",
+    "target-dir" : "Crgourmet/Bundle/RegionBundle",
     "repositories" : [{
     }],
     "extra" : {
